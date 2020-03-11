@@ -1,0 +1,129 @@
+body {
+  background-image: url(./images/philip-guston-monument-1976-_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#arthead {
+  height: 70px;
+  width: 100%;
+  color: yellow;
+  background-image: linear-gradient(black, grey);
+  /* background-image: url(./images/canvas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  text-align: center;
+}
+.navbar {
+  height: 70px;
+  color: white;
+  background-color: rgba(44, 44, 44, 0.788);
+  padding-left: 60px;
+  font-family: "Syncopate", sans-serif;
+
+  font-size: 150px;
+  letter-spacing: 20px;
+}
+
+/* bootcamp css */
+img {
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.section-title {
+  font-size: 200%;
+}
+
+.main-section-title {
+  font-size: 300%;
+  text-align: center;
+}
+
+.character {
+  display: inline-block;
+  cursor: pointer;
+  background-color: white;
+  border-color: green;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.character-image {
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.character-name {
+  text-align: center;
+}
+
+.character-talent {
+  text-align: center;
+}
+
+#available-to-attack-section .character {
+  display: inline-block;
+  cursor: pointer;
+  background-color: red;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.enemy {
+  display: inline-block;
+  cursor: pointer;
+  background-color: red;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#action .character {
+  color: white;
+  background-color: black;
+}
+
+.target-enemy {
+  color: white;
+  background-color: black;
+}
+
+#selected-character {
+  width: 190px;
+  height: 160px;
+}
+
+#attacker {
+  width: 190px;
+  height: 160px;
+}
+
+#defender {
+  width: 190px;
+  height: 160px;
+}
+
+#defender-name {
+  text-align: center;
+}
+
+#defender-talent {
+  text-align: center;
+}
+
+#choose-enemy-button {
+  visibility: hidden;
+}
+
+#restart-button {
+  visibility: hidden;
+}
+
+#turn-counter {
+  font-size: 150%;
+}
